@@ -1,0 +1,28 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 3rem;
+    margin: 0;
+    padding: 10px 20px;
+    font-family: 'Cinzel';
+    letter-spacing: 2px;
+}
+
+.Nav{
+    padding-right: 30px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: flex-start;
+
+}
+li{
+    padding: 0 10px;
+    font-size: 1.5rem;
+    font-family: 'Cinzel';
+    cursor: pointer;
+}

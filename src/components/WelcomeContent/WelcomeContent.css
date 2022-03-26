@@ -1,0 +1,42 @@
+#ImageWrapper{
+    margin: 2% 0;
+    display: flex;
+    justify-content: center;
+}
+#ImageWrapper img{
+    width: 15rem;
+    animation: spin 20s linear infinite;
+}
+#MainContentWrapper p{
+    margin-top: 5%;
+    font-size: 2.25rem;
+    font-family: 'ChakraPatch';
+    letter-spacing: 2px;
+}
+#MainContentWrapper button{
+    border: none;
+    background-color: white;
+    color: black;
+    font-family: 'ChakraPatch';
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+@keyframes spin {
+    from { 
+        transform: rotate(0deg); 
+    } to { 
+        transform: rotate(360deg); 
+    }
+}
+
+
+.Main{
+    height: 80vh;
+}
+
+#MainContentWrapper{
+    text-align: center;
+}

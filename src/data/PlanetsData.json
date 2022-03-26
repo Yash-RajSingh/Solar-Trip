@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Mercury",
+        "position": "1",
+        "image": "../../images/planets/mercury.png",
+        "info": ""
+    },
+    {
+        "name": "Venus",
+        "position": "2",
+        "image": "../../images/planets/venus.png",
+        "info": ""
+    },
+    {
+        "name": "Earth",
+        "position": "3",
+        "image": "../../images/planets/earth.png",
+        "info": ""
+    },
+    {
+        "name": "Mars",
+        "position": "4",
+        "image": "../../images/planets/mars.png",
+        "info": ""
+    },
+    {
+        "name": "Jupiter",
+        "position": "5",
+        "image": "../../images/planets/jupiter.png",
+        "info": ""
+    },
+    {
+        "name": "Saturn",
+        "position": "6",
+        "image": "../../images/planets/saturn.png",
+        "info": ""
+    },
+    {
+        "name": "Uranus",
+        "position": "7",
+        "image": "../../images/planets/uranus.png",
+        "info": ""
+    },
+    {
+        "name": "Neptune",
+        "position": "8",
+        "image": "../../images/planets/neptune.png",
+        "info": ""
+    }
+]

@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    background-image: url('../images/stars.png');
+    color: white;
+    margin: 0;
+}
+
+
+::-webkit-scrollbar{
+    width: 0.3vw;
+    background: black;
+}
+::-webkit-scrollbar-thumb {
+    background: white;
+    background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(118, 113, 113); 
+}
