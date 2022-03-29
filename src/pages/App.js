@@ -11,7 +11,7 @@ export default function App() {
     <div>
         <Header />
         <WelcomeContent />
-        <Planet data = {PlanetsData} />
+        {/* <Planet data = {PlanetsData} /> */}
         
     </div>
     )
