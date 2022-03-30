@@ -8,7 +8,7 @@ const WelcomeContent = () => {
         <>
             <div className="Main">
                 <div id='ImageWrapper'>
-                    <img src={astronaut} />
+                    <img src={astronaut}  alt="test" />
                 </div>
                 <div id='MainContentWrapper'>
                     <p>Embark on a astronomical journey. Explore, enjoy and learn</p>
