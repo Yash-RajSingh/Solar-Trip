@@ -1,15 +1,16 @@
 import PlanetWrapper from "./planetComponent";
 
-export default function Planet(Data) {
+const Planet = (Data) => {
     const item = Data.data
-    {item?.map(e =>{
-        console.log(e)
+    {item.map((element) =>{
+        console.log(element)
         return(
             <PlanetWrapper
-            name={e.name} 
-            img = {e.image}
-            position={e.position}
+            name={element.name} 
+            img = {element.image}
+            position={element.position}
             />
         )
     })}
 }
+export default Planet

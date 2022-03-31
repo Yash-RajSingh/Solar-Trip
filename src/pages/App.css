@@ -1,6 +1,5 @@
 body{
-    background-color: black;
-    background-image: url('../images/stars.png');
+    background: black url('../images/stars.png');
     color: white;
     margin: 0;
 }

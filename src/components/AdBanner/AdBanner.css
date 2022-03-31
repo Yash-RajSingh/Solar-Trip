@@ -1,0 +1,51 @@
+#AdBannerContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 7% auto;
+  /* border: 2px solid white; */
+}
+
+.BannerDetailContainer {
+  /* border: 2px solid white; */
+  width: 75%;
+}
+.BannerDetailContainer h4 {
+  margin: 1% 0;
+  font-size: 2.5rem;
+  font-family: "ChakraPatch";
+  letter-spacing: 2px;
+}
+
+.BannerDetailContainer p {
+  margin-top: 5%;
+  font-size: 1.25rem;
+  /* font-family: "SpaceMono"; */
+  font-family: 'ChakraPatch';
+  letter-spacing: 1px;
+  line-height: 170%;
+}
+
+.BannerDetailContainer button {
+  border: none;
+  margin: 5% 10%;
+  background-color: white;
+  color: black;
+  font-family: "ChakraPatch";
+  padding: 10px 20px;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.BannerImageContainer{
+    /* border: 2px solid white; */
+    width: 25%;
+}
+
+.BannerImageContainer img {
+  width: 15rem;
+  margin: 5% 15%;
+  box-shadow:0 0 8px 3px rgb(162, 162, 162);
+  /* border: 2px solid white; */
+}
