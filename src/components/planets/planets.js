@@ -10,6 +10,7 @@ const Planet = (Data) => {
                 name={element.name} 
                 img={element.image}
                 position={element.position}
+                info={element.info}
                 />
             )
         })}
