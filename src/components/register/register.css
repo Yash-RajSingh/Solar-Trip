@@ -1,0 +1,113 @@
+
+
+.Msg{
+    background: white;
+    color: black;
+    font: 3rem 'Inspiration';
+    font-weight: 900;
+    letter-spacing: 3px;
+    padding: 1rem;
+    position: absolute;
+    left: 10%;
+    top: 22%;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.738);
+    border-radius: 1rem 1rem 0 1rem;
+}
+
+.RegisterDiv{
+    width: 78%;
+    height: 70vh;
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Spaceman{
+    width: 60%;
+    margin: 5% 0 0 0;
+}
+
+.formdiv{
+    background: rgba(255, 255, 255, 0.941);
+    filter: drop-shadow(5px 5px 10px gray);
+    padding-bottom: 1.5rem;
+    border-radius: 10px;
+    width: max-content;
+    height: max-content;
+    animation: hover 5s infinite ease-in-out;
+}
+
+.formdiv h4{
+    color: black;
+    width: fit-content;
+    font: 1.7rem 'Cinzel';
+    text-align: center;
+    font-weight: 1000;
+    margin: 3% auto;
+}
+
+form{
+    /* background:rgb(255, 0, 0); */
+    width: 85%;
+    color: black;
+    margin: 0 auto;
+}
+label{
+    font: 1rem 'Cinzel';
+    font-weight: 900;
+}
+
+input{
+    margin: 2% 0;
+    border: 1pt solid #0000003c;
+    border-radius: 3px;
+    width: 95%;
+    height: 1.5rem;
+}
+input:focus{
+    outline: none;
+    border-radius: 1px;
+    border: 1.5px solid #000000bd;
+}
+
+.Miniform{
+    /* border: 2px solid black; */
+    display: flex;
+    margin: 2% 0;
+}
+
+.Miniform input{
+    width: 90%;
+}
+
+#col{
+    width: 20%;
+    margin-left: 3%;
+}
+
+#SButton{
+    background: black;
+    color: white;
+    margin-top: 4%;
+    margin-left: 35%;
+    font: 1rem 'Cinzel';
+    font-weight: 600;
+    padding: 1.2mm 3mm;
+}
+
+/* ANIMATIONS */
+
+@keyframes hover {
+    0%{
+        margin-top: -1%;
+        margin-bottom: 1%;
+    }
+    50%{
+        margin-top: 1%;
+        margin-bottom: -1%;
+    }
+    100%{
+        margin-top: -1%;
+        margin-bottom: 1%;
+    }
+}

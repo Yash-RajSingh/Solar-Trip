@@ -1,5 +1,6 @@
 import "./AdBanner.css";
 import joinUs from "../../images/join.jfif";
+import { Link } from "react-router-dom";
 
 export default function AdBanner() {
   return (
@@ -14,7 +15,7 @@ export default function AdBanner() {
             the Solar Trip's register sections and win a chance to go on a once
             in a life time trip to space and bring a partner with you!
           </p>
-          <button>Book Now!</button>
+          <Link to="/Register"><button>Book Now!</button></Link>
         </div>
         <div className="BannerImageContainer">
           <img src={joinUs} />

@@ -1,0 +1,27 @@
+.nextButton{
+    border: none;
+    float: right;
+    margin-right: 2%;
+    margin-top: 1%;
+    background-color: white;
+    color: black;
+    font-family: 'ChakraPatch';
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.previousButton{
+    border: none;
+    float: right;
+    margin-top: 1%;
+    margin-right: 2%;
+    background-color: white;
+    color: black;
+    font-family: 'ChakraPatch';
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+}

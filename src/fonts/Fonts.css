@@ -18,3 +18,8 @@
     font-family: 'SpaceMono';
     src: url('SpaceMono-Regular.ttf');
 }
+
+@font-face {
+    font-family: 'Curlyy';
+    src: url('OleoScriptSwashCaps-Regular.ttf');
+}

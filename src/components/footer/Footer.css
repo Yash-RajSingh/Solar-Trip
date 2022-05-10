@@ -8,7 +8,7 @@
 }
 
 .FooterElements h4{
-    font: 2.3rem 'ChakraPatch';
+    font: 2rem 'ChakraPatch';
     margin: 0 3%;
 }
 
@@ -22,8 +22,18 @@
 }
 
 .FooterMid li{
-    font-size: 2rem;
-    padding: 0 15px;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    font-weight: 0;
+    color: white;
+    font-family: 'ChakraPatch';
+    cursor: pointer;
+}
+
+.FooterMid li:hover{
+    background: white;
+    color: black;
+    border-radius: 5px;
 }
 
 .FooterElements p{

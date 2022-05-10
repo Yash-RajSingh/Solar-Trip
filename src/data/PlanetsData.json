@@ -2,13 +2,89 @@
     {
         "name": "Mercury",
         "position": "1",
-        "image": "../../images/planets/mercury.png",
-        "info": ""
+        "image": "./planets/mercury.png",
+        "alias": "After the messenger of the Roman gods",
+        "diameter": "3,031 miles (4,878 km)",
+        "orbit": "88 Earth days",
+        "day": "58.6 Earth days",
+        "moonCount": "0",
+        "info": "Mercury is the closest planet to the sun and the smallest planet in the solar system — it is only a little larger than Earth's moon. Mercury zips around the sun in only 88 days and because it is so close to our star (about two-fifths the distance between Earth and the sun). Mercury experiences dramatic changes in its day and night temperatures. Mercury temperatures can reach a scorching 840 F (450 C) in the day, which is hot enough to melt lead. Meanwhile, on the night side, temperatures drop to minus 290 F (minus 180 C).  "
     },
     {
         "name": "Venus",
         "position": "2",
-        "image": "../../images/planets/venus.png",
-        "info": ""
+        "image": "./planets/venus.png",
+        "alias": "After the Roman goddess of love and beauty",
+        "diameter": "7,521 miles (12,104 km)",
+        "orbit": "225 Earth days",
+        "day": "241 Earth days",
+        "moonCount": "0",
+        "info": "Venus is the second planet from the sun and is the hottest planet in the solar system. Its thick atmosphere is extremely toxic and composed of sulfuric acid clouds, the planet is an extreme example of the greenhouse effect. The average temperature on Venus' surface is 900 F (465 C). At 92 bar, the pressure at the surface would crush and kill you. And oddly, Venus spins slowly from east to west, the opposite direction of most of the other planets. Venus is sometimes referred to as Earth's twin as they are similar in size and radar images beneath its atmosphere reveal numerous mountains and volcanoes. But beyond that, the planets could not be more different."
+    },
+    {
+        "name": "Earth",
+        "position": "3",
+        "image": "./planets/earth.png",
+        "alias": "originates from 'Die Erde,' the German word for 'the ground.'",
+        "diameter": "7,926 miles (12,760 km)",
+        "orbit": "365.24 days",
+        "day": "23 hours, 56 minutes",
+        "moonCount": "1",
+        "info": "Earth, our home planet, is the third planet from the sun. It is a water world with two-thirds of the planet covered by water. Earth's atmosphere is rich in nitrogen and oxygen and it is the only world known to harbor life. Earth rotates on its axis at 1,532 feet per second (467 meters per second) — slightly more than 1,000 mph (1,600 kph) — at the equator. The planet zips around the sun at more than 18 miles per second (29 km per second)."
+    },
+    {
+        "name": "Mars",
+        "position": "4",
+        "image": "./planets/mars.png",
+        "alias": "After the Roman god of war",
+        "diameter": "4,217 miles (6,787 km) ",
+        "orbit": "",
+        "day": "Just more than one Earth day (24 hours, 37 minutes)",
+        "moonCount": "2",
+        "info": "Mars is the fourth planet from the sun. It is a cold, desert-like planet covered in iron oxide dust that gives the planet its signature red hue. Mars shares similarities with Earth: It is rocky, has mountains, valleys and canyons, and storm systems ranging from localized tornado-like dust devils to planet-engulfing dust storms. Substantial scientific evidence suggests that Mars at one point billions of years ago was a much warmer, wetter world, rivers and maybe even oceans existed. Although Mars' atmosphere is too thin for liquid water to exist on the surface for any length of time, remnants of that wetter Mars still exist today. Sheets of water ice the size of California lie beneath Mars' surface, and at both poles are ice caps made in part of frozen water.  "
+    },
+    {
+        "name": "Jupiter",
+        "position": "5",
+        "image": "./planets/jupiter.png",
+        "alias": "After the ruler of the Roman gods",
+        "diameter": "86,881 miles (139,822 km)",
+        "orbit": "11.9 Earth years",
+        "day": "9.8 Earth hours",
+        "moonCount": "79",
+        "info": "Jupiter is the fifth planet from the sun and the largest planet in the solar system. The gas giant is more than twice as massive as all the other planets combined, according to NASA(opens in new tab). Its swirling clouds are colorful due to different types of trace gases including ammonia ice, ammonium hydrosulfide crystals as well as water ice and vapor. A famous feature in its swirling clouds is Jupiter's Great Red Spot, a giant storm more than 10,000 miles wide, first observed in 1831 by amateur astronomer Samuel Heinrich Schwabe. It has raged at more than 400 mph for the last 150 years, at least. Jupiter has a strong magnetic field, and with 75 moons, including the largest moon in the solar system, Ganymede."
+    },
+    {
+        "name": "Saturn",
+        "position": "6",
+        "image": "./planets/saturn.png",
+        "alias": " After the Roman god of agriculture",
+        "diameter": "74,900 miles (120,500 km)",
+        "orbit": "29.5 Earth years",
+        "day": "About 10.5 Earth hours",
+        "moonCount":"82 (53 confirmed, 29 provisional)",
+        "info": "Saturn is the sixth planet from the sun and is famous for its large and distinct ring system. Though Saturn is not the only planet in the solar system with rings. When polymath Galileo Galilei first studied Saturn in the early 1600s, he thought it was an object with three parts: a planet and two large moons on either side. Not knowing he was seeing a planet with rings, the stumped astronomer entered a small drawing — a symbol with one large circle and two smaller ones — in his notebook, as a noun in a sentence describing his. More than 40 years later, Christiaan Huygens proposed that they were rings. "
+    },
+    {
+        "name": "Uranus",
+        "position": "7",
+        "image": "./planets/uranus.png",
+        "alias": "After the personification of heaven in ancient myth",
+        "diameter": "31,763 miles (51,120 km)",
+        "orbit": "84 Earth years",
+        "day": "18 Earth hours",
+        "moonCount": "27",
+        "info": "Uranus is the seventh planet from the sun and is a bit of an oddball. It has clouds made of hydrogen sulfide, the same chemical that makes rotten eggs smell so foul. It rotates from east to west like Venus. But unlike Venus or any other planet, its equator is nearly at right angles to its orbit — it basically orbits on its side. Astronomers believe an object twice the size of Earth collided with Uranus roughly 4 billion years ago, causing Uranus to tilt. That tilt causes extreme seasons that last 20-plus years, and the sun beats down on one pole or the other for 84 Earth-years at a time. The collision is also thought to have knocked rock and ice into Uranus' orbit. These later became some of the planet's 27 moons. Methane in Uranus' atmosphere gives the planet its blue-green tint. It also has 13 sets of faint rings."
+    },
+    {
+        "name": "Neptune",
+        "position": "8",
+        "image": "./planets/neptune.png",
+        "alias": "After the Roman god of water",
+        "diameter": "30,775 miles (49,530 km)",
+        "orbit": "165 Earth years",
+        "day": "19 Earth hours",
+        "moonCount": "14",
+        "info": "Neptune is the eighth planet from the sun and is on average the coldest planet in the solar system. The average temperature of Neptune at the top of the clouds is minus 346 degrees Fahrenheit (minus 210 degrees Celsius). Neptune is approximately the same size as Uranus and is known for its supersonic strong winds. The planet is more than 30 times as far from the sun as Earth. Neptune was the first planet predicted to exist by using math, rather than being visually detected. Irregularities in the orbit of Uranus led French astronomer Alexis Bouvard to suggest some other planet might be exerting a gravitational tug. German astronomer Johann Galle used calculations to help find Neptune in a telescope. Neptune is about 17 times as massive as Earth and has a rocky core."
     }
 ]

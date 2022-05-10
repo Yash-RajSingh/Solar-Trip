@@ -2,6 +2,7 @@ body{
     background: black url('../images/stars.png');
     color: white;
     margin: 0;
+    padding: 0.5rem;
 }
 
 

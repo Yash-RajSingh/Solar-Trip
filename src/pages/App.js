@@ -1,19 +1,26 @@
 import Header from '../components/header/header'
-import WelcomeContent from '../components/WelcomeContent/WelcomeContent'
-import AdBanner from '../components/AdBanner/AdBanner'
 import Footer from '../components/footer/Footer'
-import Planet from '../components/planets/planets'
-import PlanetsData from '../data/PlanetsData.json'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './App.css'
+import Home from './Home'
+import PlanetInfo from './PlanetInfo'
+import RegisterPage from '../components/register/RegisterPage'
 
 export default function App() {
-    return (
-    <div>
-        <Header />
-        <WelcomeContent />
-        <Planet data={PlanetsData} />
-        <AdBanner />
-        <Footer />
-    </div>
+    return (<>
+        <Router>
+            <Header />
+                <Route exact path='/'>
+                    <Home />
+                </Route>
+                <Route path='/PlanetInfo'>
+                    <PlanetInfo />
+                </Route>
+                <Route path='/Register'>
+                    <RegisterPage />
+                </Route>
+            <Footer />
+        </Router>
+    </>
     )
 }

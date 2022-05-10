@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-between;
 }
+*{
+    text-decoration: none;
+}
 h1{
     font-size: 3rem;
     margin: 0;
@@ -24,7 +27,7 @@ li{
     padding: 0 13px;
     font-size: 1.5rem;
     font-weight: 0;
-    /* font-family: 'Cinzel'; */
+    color: white;
     font-family: 'ChakraPatch';
     cursor: pointer;
 }
